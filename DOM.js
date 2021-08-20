@@ -35,3 +35,38 @@ let extraRow = function() {
 
 //36) Write a function to add the class "test" to each row in the table
 
+let addTestClass = function() {
+    let rows = document.querySelectorAll("tr")
+    rows.classList.add("test")
+}
+
+//  37) Write a function to add a red background to every link in the page
+
+let addRedBG = function() {
+    let links = document.querySelectorAll("a")
+    links.forEach((a) => {
+        a.style.backgroundColor = "red";
+      });
+}
+
+//38) Console log "Page loaded" when the page is correctly loaded
+
+window.onload = function(){
+    console.log("Page loaded")
+}
+
+//39) Write a function to add new items to a UL
+
+let newListItem = function() {
+    let list = document.getElementById("UL")
+    let li = document.createElement("li")
+    list.appendChild(li)
+}
+
+//40) Write a function to empty a list
+
+let emptyList = function() {
+    while(UL.firstElementChild) {
+        UL.firstElementChild.remove()
+    }
+}
