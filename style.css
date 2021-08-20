@@ -1,3 +1,56 @@
-table, th, td {
+/*11) Give a maximum width to the body and center it in the page */
+
+body {
+    max-width: 75%;
+    margin: auto;
+}
+
+ /*12) Set every h1 to be centered*/
+
+h1 {
+    text-align: center;
+}
+
+ /*  13) Change the color of each link in the page*/
+
+a {
+    color: blueviolet;
+}
+
+ /*14) Create a class with a border*/
+
+.borderClass {
     border: 1px solid black;
-  }
+}
+
+ /*15) Set table to have rounded corners*/
+table { border-radius: 10px;}
+
+ /*16) Add margin between every paragraph*/
+
+ p {margin-top: 50px;}
+
+ /*17) Create a class which change font size and boldness*/
+
+.changeFontAndBoldness {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+ /*18) Create a class to hide a content*/
+
+.hiddenConten {display: none;}
+
+ /*19) Add a green border to each td*/
+ /*20) Add a dotted red border to each tr (note: tr does not accept a border property ;-) )*/
+
+ td {
+    border: 2px solid green;
+    border-top: 2px dotted red;
+    border-bottom: 2px dotted red;
+ }
+
+table {
+    border-style: dotted;
+    border-color: red;
+}
