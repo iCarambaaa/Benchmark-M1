@@ -9,8 +9,9 @@
 
         <!--2) Create a heading-->
 
-        <h1>This is the biggest Heading</h1>
-
+        <h1>This is the biggest and most important Heading</h1>
+        <button onclick="changeH1()">change the heading</button>
+        <button onclick="extraRow()">add extra row</button>
         <!--3) Create an ordered list-->
 
         <ol>
@@ -24,7 +25,7 @@
             6) Add a anchor link for every image
             7) Merge together 2 table cells-->
 
-        <table style="width:100%">
+        <table style="width:100%" id="myTable">
             <tr>
                 <td>c1</td>
                 <td><img id= "01" src="https://www.justlifelogo.com/wp-content/uploads/2017/02/dog-cat-fish-logo-for-sale.jpg" alt="dogecatfish" style="width:25%"></td>
@@ -65,7 +66,7 @@
 
         <!--9) Create a container with a nested paragraph and a nested unordered list-->
 
-<div>
+<div id="container">
     <p>This is a nested p</p>
     <p>This is a nested p</p>
     <p>This is a nested p</p>
@@ -84,7 +85,7 @@
         some information about the page creator -- loves catfishdoge!
     </p>
 </footer>
-<script src = "index.js"></script>
+<script src="DOM.js"></script>
     </body>
 
     </html>
