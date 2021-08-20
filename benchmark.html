@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html">
-
+    <link rel="stylesheet" href="style.css">
     <!--1) Create a title for the page-->
 
     <title>BenchmarkM1D1050ex</title>
@@ -21,54 +21,67 @@
 
         <!--4) Create a table with 5 columns and 4 rows 
             5) Add an image to each second cell of every row
-            6) Add a anchor link for every image-->
+            6) Add a anchor link for every image
+            7) Merge together 2 table cells-->
 
         <table style="width:100%">
             <tr>
                 <td>c1</td>
-                <td><img src="https://www.justlifelogo.com/wp-content/uploads/2017/02/dog-cat-fish-logo-for-sale.jpg" alt="dogecatfish" style="width:25%"></td>
+                <td><img id= "01" src="https://www.justlifelogo.com/wp-content/uploads/2017/02/dog-cat-fish-logo-for-sale.jpg" alt="dogecatfish" style="width:25%"></td>
+                <td>c3</td>
+                <td colspan="2">c4+c5</td>
+            </tr>
+            <tr>
+                <td>c1</td>
+                <td><img id= "02" src="https://www.justlifelogo.com/wp-content/uploads/2017/02/dog-cat-fish-logo-for-sale.jpg" alt="dogecatfish" style="width:25%"></td>
                 <td>c3</td>
                 <td>c4</td>
                 <td>c5</td>
             </tr>
             <tr>
                 <td>c1</td>
-                <td><img src="https://www.justlifelogo.com/wp-content/uploads/2017/02/dog-cat-fish-logo-for-sale.jpg" alt="dogecatfish" style="width:25%"></td>
-                <td>c3</td>
-                <td>c4</td>
-                <td>c5</td>
-            </tr>
-            <tr>
-                <td>c1</td>
-                <td><img src="https://www.justlifelogo.com/wp-content/uploads/2017/02/dog-cat-fish-logo-for-sale.jpg" alt="dogecatfish" style="width:25%"></td>
+                <td><img  id ="03" src="https://www.justlifelogo.com/wp-content/uploads/2017/02/dog-cat-fish-logo-for-sale.jpg" alt="dogecatfish" style="width:25%"></td>
                 <td>c3</td>
                 <td>c4</td>
                 <td>c5</td>
               </tr>
               <tr>
                 <td>c1</td>
-                <td><img src="https://www.justlifelogo.com/wp-content/uploads/2017/02/dog-cat-fish-logo-for-sale.jpg" alt="dogecatfish" style="width:25%"></td>
+                <td><img id= "04" src="https://www.justlifelogo.com/wp-content/uploads/2017/02/dog-cat-fish-logo-for-sale.jpg" alt="dogecatfish" style="width:25%"></td>
                 <td>c3</td>
                 <td>c4</td>
                 <td>c5</td>
               </tr>
         </table>
 
-        <!--2) Create a heading-->
-        <!--2) Create a heading-->
-        <!--2) Create a heading-->
-        <!--2) Create a heading-->
-        <!--2) Create a heading-->
-        <!--2) Create a heading-->
-        <!--2) Create a heading-->
-        <!--2) Create a heading-->
-        <!--2) Create a heading-->
-        <!--2) Create a heading-->
-        <!--2) Create a heading-->
-        <!--2) Create a heading-->
+        <a href="#01">img01</a>
+        <a href="#02">img02</a>
+        <a href="#03">img03</a>
+        <a href="#04">img04</a>
+       
+        <!--8) Divide the page using a horizontal line-->
 
-        <!--2) Create a heading-->
-        <!--2) Create a heading-->
+        <hr>
+
+        <!--9) Create a container with a nested paragraph and a nested unordered list-->
+
+<div>
+    <p>This is a nested p</p>
+    <ul>
+        <li>hallo</li>
+        <li>hola</li>
+        <li>shalom</li>
+    </ul>
+</div>
+
+        <!--10) Create a footer with some information about the page creator -->
+
+<footer style = "text-align: center; background-color: rgb(103, 180, 248);">
+    <h2>This is the footer</h2>
+    <p>
+        some information about the page creator -- loves catfishdoge!
+    </p>
+</footer>
     </body>
 
     </html>
